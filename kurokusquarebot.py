@@ -1,32 +1,32 @@
 # -*- coding: utf-8 -*-
 # Kuroku Square Bots
-# Creator : Dzin
-# ID LINE : adzin.zh
-# https://github.com/dzingans
+# Creator : Ferryhan
+# ID LINE : ferryhan88
+# https://github.com/ferryhan
 # Thanks to Fadhiilrachman ( github.com/fadhiilrachman ) dan teman teman
 # Tolong jangan edit bagian ini, hargai creator dan pengembang
 
 from linepy import *
 import time
 
-line = LINE() #untuk login qr
-#line = LINE('EMAIL', 'PASSWORD') #untuk login menggunakan email dan password
+#line = LINE() #untuk login qr
+line = LINE('ferryhan88@gmail.com', 'ferryhan123') #untuk login menggunakan email dan password
 #line = LINE('AUTHTOKEN') #untuk login token
 
 line.log("Auth Token : " + str(line.authToken))
 squareChatMid='(YOUR_SQUARE_MID)' # Get manual from line.getJoinableSquareChats('YOUR_SQUARE_MID')
 
-helpMessage = """Kuroku Bots
+helpMessage = """DanaBot
 Type : Square Bots
 
-Hi
-Kuroku help
-Kuroku speed
-Kuroku creator
-Kuroku mymid
-Kuroku me
+=>Hi
+=>Kuroku help
+=>Kuroku speed
+=>Kuroku creator
+=>Kuroku mymid
+=>Kuroku me
 
-github.com/dzingans"""
+http://line.me/ti/p/~ferryhan88"""
 
 # Initialize OEPoll with LINE instance
 oepoll = OEPoll(line)
